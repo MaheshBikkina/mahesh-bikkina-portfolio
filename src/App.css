@@ -1,0 +1,4 @@
+/* App-level resets — section-specific styles live in *.module.css files */
+#root {
+  min-height: 100vh;
+}

@@ -1,0 +1,46 @@
+.bg { background: var(--surface2); }
+
+.inner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.title span { color: var(--accent); }
+
+.subtitle {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 36px;
+}
+
+.emailBtn {
+  font-size: 15px !important;
+  padding: 14px 32px !important;
+  margin-bottom: 40px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted);
+  transition: color var(--transition);
+  padding: 8px;
+}
+.socialLink:hover { color: var(--accent); }
