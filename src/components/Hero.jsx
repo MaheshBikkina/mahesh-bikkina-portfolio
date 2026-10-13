@@ -19,7 +19,7 @@ export default function Hero() {
         <div className={styles.actions}>
           <a href="#projects" className="btn btn-primary">View Projects</a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/MaheshBikkina"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline"
@@ -30,7 +30,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/maheshbikkina3310/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline"
